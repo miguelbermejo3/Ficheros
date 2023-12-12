@@ -201,32 +201,32 @@ GROUP BY P.id]]>
 		</band>
 	</detail>
 	<columnFooter>
-		<band height="45" splitType="Stretch">
-			<textField>
-				<reportElement x="120" y="15" width="100" height="30" uuid="3ec2a44a-267e-4bb6-84dc-91847193998c"/>
-				<textFieldExpression><![CDATA[$V{nombre1}]]></textFieldExpression>
-			</textField>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="30" splitType="Stretch">
 			<staticText>
-				<reportElement x="0" y="15" width="120" height="30" uuid="fdcae53a-e486-4f3e-ae78-4ad46c949266"/>
+				<reportElement x="0" y="0" width="120" height="30" uuid="fdcae53a-e486-4f3e-ae78-4ad46c949266"/>
 				<text><![CDATA[Número de Personas:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="360" y="15" width="100" height="30" forecolor="#E32C29" uuid="dd2b748f-23cf-4423-8839-159214c659d3"/>
+				<reportElement x="120" y="0" width="100" height="30" uuid="3ec2a44a-267e-4bb6-84dc-91847193998c"/>
+				<textFieldExpression><![CDATA[$V{nombre1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="0" width="100" height="30" forecolor="#E32C29" uuid="dd2b748f-23cf-4423-8839-159214c659d3"/>
 				<textElement textAlignment="Right"/>
 				<textFieldExpression><![CDATA["Página número: " + $V{PAGE_NUMBER}]]></textFieldExpression>
 			</textField>
 			<textField evaluationTime="Report">
-				<reportElement x="460" y="15" width="100" height="30" forecolor="#ED2926" uuid="92264593-916d-445a-aeae-661ffe237640"/>
+				<reportElement x="460" y="0" width="100" height="30" forecolor="#ED2926" uuid="92264593-916d-445a-aeae-661ffe237640"/>
 				<textElement textAlignment="Left"/>
 				<textFieldExpression><![CDATA[" de " + $V{PAGE_NUMBER}]]></textFieldExpression>
 			</textField>
 		</band>
-	</columnFooter>
-	<pageFooter>
-		<band height="30" splitType="Stretch"/>
 	</pageFooter>
 	<summary>
-		<band height="54" splitType="Stretch">
+		<band height="44" splitType="Stretch">
 			<staticText>
 				<reportElement x="0" y="0" width="120" height="30" uuid="30554417-3a6c-4298-b2c3-602463d960da"/>
 				<text><![CDATA[Número de Personas:]]></text>
