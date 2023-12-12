@@ -20,31 +20,23 @@
 	</background>
 	<summary>
 		<band height="262" splitType="Stretch">
-			<bar3DChart>
+			<pie3DChart>
 				<chart evaluationTime="Report">
-					<reportElement x="30" y="30" width="512" height="220" uuid="ea8fbe8d-e680-4965-adc3-047a736c7099"/>
+					<reportElement x="20" y="30" width="530" height="220" uuid="c2186f11-90fa-408b-89db-1f8a35bd97de"/>
 					<chartTitle/>
 					<chartSubtitle/>
 					<chartLegend/>
 				</chart>
-				<categoryDataset>
-					<categorySeries>
-						<seriesExpression><![CDATA["SERIES 1"]]></seriesExpression>
-						<categoryExpression><![CDATA[$F{tipo}]]></categoryExpression>
-						<valueExpression><![CDATA[$F{cantidad}]]></valueExpression>
-					</categorySeries>
-				</categoryDataset>
-				<bar3DPlot>
-					<plot/>
+				<pieDataset>
+					<keyExpression><![CDATA[$F{tipo}]]></keyExpression>
+					<valueExpression><![CDATA[$F{cantidad}]]></valueExpression>
+					<labelExpression><![CDATA[$F{tipo}+":"+$F{cantidad}]]></labelExpression>
+				</pieDataset>
+				<pie3DPlot isShowLabels="false">
+					<plot backcolor="#27D6E3"/>
 					<itemLabel/>
-					<categoryAxisFormat>
-						<axisFormat labelColor="#000000" tickLabelColor="#000000" axisLineColor="#000000"/>
-					</categoryAxisFormat>
-					<valueAxisFormat>
-						<axisFormat labelColor="#000000" tickLabelColor="#000000" axisLineColor="#000000"/>
-					</valueAxisFormat>
-				</bar3DPlot>
-			</bar3DChart>
+				</pie3DPlot>
+			</pie3DChart>
 		</band>
 	</summary>
 </jasperReport>
