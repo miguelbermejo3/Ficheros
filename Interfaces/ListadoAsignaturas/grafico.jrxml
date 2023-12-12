@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="grafico" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="2d210528-0157-4af0-8d9c-3e5c63f9c4a7">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Universidad "/>
+	<queryString language="SQL">
+		<![CDATA[SELECT COUNT(*)as cantidad,tipo FROM asignatura group by asignatura.tipo]]>
+	</queryString>
+	<field name="tipo" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="tipo"/>
+		<property name="com.jaspersoft.studio.field.label" value="tipo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="asignatura"/>
+	</field>
+	<field name="cantidad" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="cantidad"/>
+		<property name="com.jaspersoft.studio.field.label" value="cantidad"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<summary>
+		<band height="262" splitType="Stretch">
+			<bar3DChart>
+				<chart evaluationTime="Report">
+					<reportElement x="30" y="30" width="512" height="220" uuid="ea8fbe8d-e680-4965-adc3-047a736c7099"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<categoryDataset>
+					<categorySeries>
+						<seriesExpression><![CDATA["SERIES 1"]]></seriesExpression>
+						<categoryExpression><![CDATA[$F{tipo}]]></categoryExpression>
+						<valueExpression><![CDATA[$F{cantidad}]]></valueExpression>
+					</categorySeries>
+				</categoryDataset>
+				<bar3DPlot>
+					<plot/>
+					<itemLabel/>
+					<categoryAxisFormat>
+						<axisFormat labelColor="#000000" tickLabelColor="#000000" axisLineColor="#000000"/>
+					</categoryAxisFormat>
+					<valueAxisFormat>
+						<axisFormat labelColor="#000000" tickLabelColor="#000000" axisLineColor="#000000"/>
+					</valueAxisFormat>
+				</bar3DPlot>
+			</bar3DChart>
+		</band>
+	</summary>
+</jasperReport>

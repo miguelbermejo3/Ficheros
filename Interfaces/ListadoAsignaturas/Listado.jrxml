@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Listado" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="974007d5-e282-4108-bd09-9ff9e75ab5c5">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Universidad "/>
+	<queryString language="SQL">
+		<![CDATA[SELECT universidad.asignatura.creditos,
+	universidad.asignatura.curso,
+	universidad.asignatura.cuatrimestre,
+	universidad.asignatura.nombre,
+	universidad.grado.id,universidad.grado.nombre
+FROM universidad.asignatura
+	 join universidad.grado ON
+	 universidad.asignatura.id_grado = universidad.grado.id
+ORDER BY universidad.grado.nombre ,
+	universidad.asignatura.curso,universidad.asignatura.cuatrimestre]]>
+	</queryString>
+	<field name="creditos" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.name" value="creditos"/>
+		<property name="com.jaspersoft.studio.field.label" value="creditos"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="asignatura"/>
+	</field>
+	<field name="curso" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="curso"/>
+		<property name="com.jaspersoft.studio.field.label" value="curso"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="asignatura"/>
+	</field>
+	<field name="cuatrimestre" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="cuatrimestre"/>
+		<property name="com.jaspersoft.studio.field.label" value="cuatrimestre"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="asignatura"/>
+	</field>
+	<field name="nombre" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="nombre"/>
+		<property name="com.jaspersoft.studio.field.label" value="nombre"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="asignatura"/>
+	</field>
+	<field name="id" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="id"/>
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="grado"/>
+	</field>
+	<field name="COLUMN_6" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="nombre"/>
+		<property name="com.jaspersoft.studio.field.label" value="nombre"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="grado"/>
+	</field>
+	<variable name="curso1" class="java.lang.Integer" resetType="Group" resetGroup="grupo" calculation="DistinctCount">
+		<variableExpression><![CDATA[$F{curso}]]></variableExpression>
+	</variable>
+	<variable name="creditos1" class="java.lang.Float" resetType="Group" resetGroup="curso" calculation="Sum">
+		<variableExpression><![CDATA[$F{creditos}]]></variableExpression>
+	</variable>
+	<variable name="creditos2" class="java.lang.Float" resetType="Group" resetGroup="grupo" calculation="Sum">
+		<variableExpression><![CDATA[$F{creditos}]]></variableExpression>
+	</variable>
+	<group name="grupo">
+		<groupExpression><![CDATA[$F{COLUMN_6}]]></groupExpression>
+		<groupHeader>
+			<band height="50">
+				<textField>
+					<reportElement x="30" y="20" width="220" height="30" forecolor="#2F98F5" uuid="c120538f-ea7c-43cf-941f-79ca563e4dc6"/>
+					<textElement>
+						<font isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{COLUMN_6}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="33">
+				<line>
+					<reportElement x="0" y="32" width="580" height="1" forecolor="#2443F2" uuid="3ed7bdd5-3232-47fc-8f4f-5b9553d8f34e">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+				</line>
+				<textField>
+					<reportElement x="260" y="1" width="166" height="30" forecolor="#2B3DE0" uuid="c43b6b2f-1021-4b72-9f62-0ba79f89fa29"/>
+					<textElement>
+						<font isUnderline="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Créditos del grado: "+$V{creditos2}.intValue()]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupFooter>
+	</group>
+	<group name="curso">
+		<groupExpression><![CDATA[$F{curso}]]></groupExpression>
+		<groupHeader>
+			<band height="62">
+				<staticText>
+					<reportElement x="30" y="32" width="190" height="30" uuid="8290a7a1-50b0-4807-9ba5-c7dd79c4909d"/>
+					<text><![CDATA[Asignatura]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="220" y="30" width="100" height="30" uuid="7a349627-896e-4805-b4ca-8be832cd2a2b"/>
+					<textElement textAlignment="Center"/>
+					<text><![CDATA[Cuatrimestre]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="320" y="30" width="100" height="30" uuid="3e5f8903-66e7-459b-bc15-15a51ebda71e"/>
+					<textElement textAlignment="Center"/>
+					<text><![CDATA[Créditos]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="30" y="2" width="220" height="30" uuid="e9825834-9922-4a4e-8c1a-49641c161bfd"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[($F{curso}==1)? "Primer curso": ($F{curso}==2)?"Segundo curso":($F{curso}==3)?"Tercer curso":"Cuarto curso"]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement x="10" y="60" width="560" height="1" uuid="92fceaa1-fe0f-4aae-a442-f78aba0ad975">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+				</line>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="30">
+				<textField>
+					<reportElement x="260" y="0" width="166" height="30" uuid="5be8a489-f548-42cd-8f1a-48ff53bbcb85"/>
+					<textElement>
+						<font isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Créditos del curso: "+$V{creditos1}.intValue()]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<textField>
+				<reportElement x="30" y="0" width="190" height="30" uuid="584f54f6-27a8-4df3-b290-db9028e738a3"/>
+				<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="220" y="0" width="100" height="30" uuid="f6a3cbd8-79f4-4146-96a6-c818e6592cc0"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{cuatrimestre}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###;(#,##0.###-)">
+				<reportElement x="320" y="0" width="100" height="30" uuid="983e3b14-26c7-41ba-a578-bff00d60a677"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{creditos}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
