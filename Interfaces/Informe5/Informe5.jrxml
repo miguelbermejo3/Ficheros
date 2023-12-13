@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Informe5" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="54a57cdf-c3f8-450b-8fc1-94a15c426993">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Universidad "/>
+	<queryString language="SQL">
+		<![CDATA[SELECT COUNT(id),year(fecha_nacimiento) FROM persona GROUP BY year(fecha_nacimiento)]]>
+	</queryString>
+	<field name="COUNT(id)" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="COUNT(id)"/>
+		<property name="com.jaspersoft.studio.field.label" value="COUNT(id)"/>
+	</field>
+	<field name="year(fecha_nacimiento)" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="year(fecha_nacimiento)"/>
+		<property name="com.jaspersoft.studio.field.label" value="year(fecha_nacimiento)"/>
+	</field>
+	<summary>
+		<band height="304" splitType="Stretch">
+			<pie3DChart>
+				<chart evaluationTime="Report">
+					<reportElement x="0" y="20" width="561" height="271" uuid="b61e0d87-c7e7-481a-9d80-b167de1e42e5"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<pieDataset minPercentage="5.0">
+					<keyExpression><![CDATA[$F{year(fecha_nacimiento)}]]></keyExpression>
+					<valueExpression><![CDATA[$F{COUNT(id)}]]></valueExpression>
+				</pieDataset>
+				<pie3DPlot>
+					<plot/>
+					<itemLabel/>
+				</pie3DPlot>
+			</pie3DChart>
+		</band>
+	</summary>
+</jasperReport>
