@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Orderby</name>
+	<name>Mbermejo</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -20,16 +20,4 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>net.sf.jasperreports.nature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>Ejercicio1MBermejo.jrxml</name>
-			<type>1</type>
-			<location>C:/Users/mbermejo8774/Desktop/Ejercicio1MBermejo.jrxml</location>
-		</link>
-		<link>
-			<name>Ejercicio2MBermejo.jrxml</name>
-			<type>1</type>
-			<location>C:/Users/mbermejo8774/Desktop/Ejercicio2MBermejo.jrxml</location>
-		</link>
-	</linkedResources>
 </projectDescription>

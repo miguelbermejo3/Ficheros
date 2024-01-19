@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Prueba" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="1bf7873b-e2a6-4a56-bfed-c9649d78afd0">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="order"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT p.productCode,p.productName,p.quantityInStock,od.quantityOrdered,c.customerName,p.productLine FROM products p JOIN orderdetails od ON p.productCode=od.productCode JOIN orders o ON od.orderNumber=o.orderNumber JOIN customers c ON c.customerNumber=o.customerNumber GROUP BY p.productLine,c.customerName]]>
+	</queryString>
+	<field name="productCode" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="productCode"/>
+		<property name="com.jaspersoft.studio.field.label" value="productCode"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="products"/>
+	</field>
+	<field name="productName" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="productName"/>
+		<property name="com.jaspersoft.studio.field.label" value="productName"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="products"/>
+	</field>
+	<field name="quantityInStock" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="quantityInStock"/>
+		<property name="com.jaspersoft.studio.field.label" value="quantityInStock"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="products"/>
+	</field>
+	<field name="quantityOrdered" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="quantityOrdered"/>
+		<property name="com.jaspersoft.studio.field.label" value="quantityOrdered"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="orderdetails"/>
+	</field>
+	<field name="customerName" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="customerName"/>
+		<property name="com.jaspersoft.studio.field.label" value="customerName"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="customers"/>
+	</field>
+	<field name="productLine" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="productLine"/>
+		<property name="com.jaspersoft.studio.field.label" value="productLine"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="products"/>
+	</field>
+	<variable name="productCode1" class="java.lang.Integer" resetType="Group" resetGroup="customerName" calculation="DistinctCount">
+		<variableExpression><![CDATA[$F{productCode}]]></variableExpression>
+	</variable>
+	<variable name="quantityOrdered1" class="java.lang.Integer" resetType="Group" resetGroup="customerName" calculation="Sum">
+		<variableExpression><![CDATA[$F{quantityOrdered}]]></variableExpression>
+	</variable>
+	<group name="productLine">
+		<groupExpression><![CDATA[$F{productLine}]]></groupExpression>
+		<groupHeader>
+			<band height="30">
+				<textField>
+					<reportElement mode="Opaque" x="10" y="0" width="540" height="30" forecolor="#1FF231" backcolor="#DFE82E" uuid="b1638888-fdfb-4210-9a5c-b15012dfa14d"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#1FF231"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#1FF231"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#1FF231"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#1FF231"/>
+					</box>
+					<textFieldExpression><![CDATA["Tipo de Artículo: "+$F{productLine}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="50"/>
+		</groupFooter>
+	</group>
+	<group name="customerName">
+		<groupExpression><![CDATA[$F{customerName}]]></groupExpression>
+		<groupHeader>
+			<band height="30">
+				<textField>
+					<reportElement mode="Opaque" x="10" y="0" width="360" height="30" printWhenGroupChanges="customerName" backcolor="#0ECC2B" uuid="2c22bbfc-289f-467a-87b8-df14d5f45e22"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textFieldExpression><![CDATA["Vendedor: "+$F{customerName}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="40">
+				<textField>
+					<reportElement x="280" y="0" width="270" height="30" uuid="0376608d-4f48-4441-bf87-c288ba708649"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Total pedido para este vendedor: "+$V{quantityOrdered1}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="70" splitType="Stretch">
+			<textField>
+				<reportElement x="120" y="40" width="285" height="30" forecolor="#3A8755" uuid="9db5c526-a6c1-4b32-8246-771cc0557623"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["LISTADO DE ARTÍCULOS"]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="74" splitType="Stretch">
+			<textField>
+				<reportElement x="10" y="40" width="100" height="30" uuid="59daa6f2-fe3b-47df-af83-aea41710fd34">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="708829ec-2916-4f13-8282-e20361fd5ae3"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{productCode}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="40" width="210" height="30" uuid="dcec779f-a741-40c5-968f-c86ad036fa2b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a409ebf6-2a9b-4a96-8732-5b40dc7e294c"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="40" width="100" height="30" backcolor="#DBECF9" uuid="ecda2abe-fba8-4d06-a542-33fccb3e378b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="c151b1d1-b3c3-424e-9ca2-5d0e2161a9aa"/>
+				</reportElement>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{quantityInStock}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="420" y="40" width="120" height="30" uuid="a10bf3e8-9d51-4a86-98ec-e1b7a4107e9f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="c39c2e4a-751c-4a1c-8eb6-c2f1c124a45e"/>
+				</reportElement>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{quantityOrdered}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="10" width="100" height="30" uuid="1bddf207-8eba-4ea7-b496-c0714e71ef53"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Código"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="10" width="210" height="30" uuid="f4202aa1-e08c-4904-929c-ca544ad91fae"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Nombre"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="10" width="100" height="30" uuid="91f9e60e-d28e-488a-aae0-1d3fb97cd6fc"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Cantidad Stock"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="420" y="10" width="120" height="30" uuid="1af19262-14a1-45d5-955a-a7e6a5039fd7"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Cant.Pedida"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="30" splitType="Stretch">
+			<textField>
+				<reportElement x="360" y="0" width="100" height="30" uuid="31e43ecd-5467-4510-9592-2a9f440cc95b"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="460" y="0" width="100" height="30" uuid="96772f5e-8f50-4048-a4e8-810717939286"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[" of " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="44" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_1sajoJhyEe6-StRWbGh1BA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_1sajoZhyEe6-StRWbGh1BA" bindingContexts="_1sanFZhyEe6-StRWbGh1BA">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Informe5.jrxml&quot; tooltip=&quot;Informe5/Informe5.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Informe5/Informe5.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Informe4.jrxml&quot; tooltip=&quot;Informe4/Informe4.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Informe4/Informe4.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;grafico.jrxml&quot; tooltip=&quot;ListadoAsignaturas/grafico.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ListadoAsignaturas/grafico.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Listado.jrxml&quot; tooltip=&quot;ListadoAsignaturas/Listado.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ListadoAsignaturas/Listado.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Ejemplo.jrxml&quot; tooltip=&quot;Orderby/Ejemplo.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Orderby/Ejemplo.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Informe1.jrxml&quot; tooltip=&quot;Informes/informe1/Informe1.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Informes/informe1/Informe1.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;85135690V.jpg&quot; tooltip=&quot;FichaAlumno/85135690V.jpg&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FichaAlumno/85135690V.jpg&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;Captura.PNG&quot; tooltip=&quot;C:\Users\mbermejo8774\Desktop\Captura.PNG&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Users/mbermejo8774/Desktop/Captura.PNG&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;FichaAlumno.jrxml&quot; tooltip=&quot;FichaAlumno/FichaAlumno.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FichaAlumno/FichaAlumno.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Ejemplo1.jrxml&quot; tooltip=&quot;Informes/Ejemplo/Ejemplo1.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Informes/Ejemplo/Ejemplo1.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Ejercicio2.jrxml&quot; tooltip=&quot;ExamenMbermejo/Ejercicio2.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ExamenMbermejo/Ejercicio2.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Ejercicio1MBermejo.jrxml&quot; tooltip=&quot;C:\Users\mbermejo8774\Desktop\Ejercicio1MBermejo.jrxml&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Users/mbermejo8774/Desktop/Ejercicio1MBermejo.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Ejercicio2MBermejo.jrxml&quot; tooltip=&quot;C:\Users\mbermejo8774\Desktop\Ejercicio2MBermejo.jrxml&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Users/mbermejo8774/Desktop/Ejercicio2MBermejo.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Ejercicio1.jrxml&quot; tooltip=&quot;Orderby/Ejercicio1.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Orderby/Ejercicio1.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Ejercicio1.jrxml&quot; tooltip=&quot;C:\Users\mbermejo8774\Desktop\Ejercicio1.jrxml&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Users/mbermejo8774/Desktop/Ejercicio1.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Ejercicio1.jrxml&quot; tooltip=&quot;ExamenMbermejo/Ejercicio1.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ExamenMbermejo/Ejercicio1.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Informe4.jrxml&quot; tooltip=&quot;Informe4/Informe4.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Informe4/Informe4.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Informe5.jrxml&quot; tooltip=&quot;Informe5/Informe5.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Informe5/Informe5.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Ejemplo.jrxml&quot; tooltip=&quot;Orderby/Ejemplo.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Orderby/Ejemplo.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Prueba.jrxml&quot; tooltip=&quot;ExamenMbermejo/Prueba.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ExamenMbermejo/Prueba.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Ejercicio1.jrxml&quot; tooltip=&quot;Mbermejo/Ejercicio1.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Mbermejo/Ejercicio1.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Blank_A4.jrxml&quot; tooltip=&quot;Examen/Blank_A4.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Examen/Blank_A4.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;FichaAlumno.jrxml&quot; tooltip=&quot;FichaAlumno/FichaAlumno.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FichaAlumno/FichaAlumno.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Listado.jrxml&quot; tooltip=&quot;ListadoAsignaturas/Listado.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ListadoAsignaturas/Listado.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;grafico.jrxml&quot; tooltip=&quot;ListadoAsignaturas/grafico.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ListadoAsignaturas/grafico.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Informe1.jrxml&quot; tooltip=&quot;Informes/informe1/Informe1.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Informes/informe1/Informe1.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;85135690V.jpg&quot; tooltip=&quot;FichaAlumno/85135690V.jpg&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FichaAlumno/85135690V.jpg&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;Captura.PNG&quot; tooltip=&quot;C:\Users\mbermejo8774\Desktop\Captura.PNG&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Users/mbermejo8774/Desktop/Captura.PNG&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Ejemplo1.jrxml&quot; tooltip=&quot;Informes/Ejemplo/Ejemplo1.jrxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Informes/Ejemplo/Ejemplo1.jrxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_1sajoZhyEe6-StRWbGh1BA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_1sajophyEe6-StRWbGh1BA" x="0" y="0" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_1sajoZhyEe6-StRWbGh1BA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_1sajophyEe6-StRWbGh1BA" x="0" y="0" width="976" height="1056">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -25,6 +25,7 @@
           <children xsi:type="basic:PartSashContainer" xmi:id="_1sajpZhyEe6-StRWbGh1BA" selectedElement="_1sajrJhyEe6-StRWbGh1BA" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_1sajpphyEe6-StRWbGh1BA" containerData="2500" selectedElement="_1sajp5hyEe6-StRWbGh1BA">
               <children xsi:type="basic:PartStack" xmi:id="_1sajp5hyEe6-StRWbGh1BA" elementId="com.jaspersoft.studio.RepositoryMStack" containerData="5000" selectedElement="_1sajqZhyEe6-StRWbGh1BA">
+                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_1sajqJhyEe6-StRWbGh1BA" elementId="com.jaspersoft.studio.Repository" ref="_1sak1JhyEe6-StRWbGh1BA" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Jaspersoft Studio</tags>
@@ -42,16 +43,17 @@
               </children>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_1sajrJhyEe6-StRWbGh1BA" containerData="7500" selectedElement="_1sajrZhyEe6-StRWbGh1BA" horizontal="true">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_1sajrZhyEe6-StRWbGh1BA" containerData="7000" selectedElement="_1sajrphyEe6-StRWbGh1BA">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_1sajrZhyEe6-StRWbGh1BA" containerData="6075" selectedElement="_1sajr5hyEe6-StRWbGh1BA">
                 <children xsi:type="advanced:Placeholder" xmi:id="_1sajrphyEe6-StRWbGh1BA" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_1sakyphyEe6-StRWbGh1BA"/>
                 <children xsi:type="basic:PartStack" xmi:id="_1sajr5hyEe6-StRWbGh1BA" elementId="com.jaspersoft.studio.editor.preview.reportstateMStack" containerData="2500" selectedElement="_1sajsJhyEe6-StRWbGh1BA">
+                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_1sajsJhyEe6-StRWbGh1BA" elementId="com.jaspersoft.studio.editor.preview.reportstate" ref="_1salSZhyEe6-StRWbGh1BA" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:Jaspersoft Studio</tags>
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_1sajsZhyEe6-StRWbGh1BA" containerData="3000" selectedElement="_1sajtJhyEe6-StRWbGh1BA">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_1sajsZhyEe6-StRWbGh1BA" containerData="3925" selectedElement="_1sajtJhyEe6-StRWbGh1BA">
                 <children xsi:type="basic:PartStack" xmi:id="_1sajsphyEe6-StRWbGh1BA" elementId="org.eclipse.gef.ui.palette_viewMStack" containerData="4000" selectedElement="_1sajs5hyEe6-StRWbGh1BA">
                   <children xsi:type="advanced:Placeholder" xmi:id="_1sajs5hyEe6-StRWbGh1BA" elementId="org.eclipse.gef.ui.palette_view" ref="_1salKJhyEe6-StRWbGh1BA" closeable="true">
                     <tags>View</tags>
@@ -113,54 +115,9 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_1sakyphyEe6-StRWbGh1BA" elementId="org.eclipse.ui.editorss" selectedElement="_1saky5hyEe6-StRWbGh1BA">
-      <children xsi:type="basic:PartStack" xmi:id="_1saky5hyEe6-StRWbGh1BA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_1sak0JhyEe6-StRWbGh1BA">
+      <children xsi:type="basic:PartStack" xmi:id="_1saky5hyEe6-StRWbGh1BA" elementId="org.eclipse.e4.primaryDataStack">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_1sakzJhyEe6-StRWbGh1BA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="FichaAlumno.jrxml" iconURI="platform:/plugin/com.jaspersoft.studio/icons/jrxml_icon.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;FichaAlumno.jrxml&quot; partName=&quot;FichaAlumno.jrxml&quot; title=&quot;FichaAlumno.jrxml&quot; tooltip=&quot;FichaAlumno/FichaAlumno.jrxml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FichaAlumno/FichaAlumno.jrxml&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>com.jaspersoft.studio.editor.JrxmlEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_1sak0JhyEe6-StRWbGh1BA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Informe1.jrxml" iconURI="platform:/plugin/com.jaspersoft.studio/icons/jrxml_icon.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Informe1.jrxml&quot; partName=&quot;Informe1.jrxml&quot; title=&quot;Informe1.jrxml&quot; tooltip=&quot;Informes/informe1/Informe1.jrxml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Informes/informe1/Informe1.jrxml&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>com.jaspersoft.studio.editor.JrxmlEditor</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_DSwD8JkXEe68VqgG-wCPTw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Ejemplo.jrxml" iconURI="platform:/plugin/com.jaspersoft.studio/icons/jrxml_icon.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Ejemplo.jrxml&quot; partName=&quot;Ejemplo.jrxml&quot; title=&quot;Ejemplo.jrxml&quot; tooltip=&quot;Orderby/Ejemplo.jrxml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Orderby/Ejemplo.jrxml&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>com.jaspersoft.studio.editor.JrxmlEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_v9HSsJkbEe68VqgG-wCPTw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Listado.jrxml" iconURI="platform:/plugin/com.jaspersoft.studio/icons/jrxml_icon.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Listado.jrxml&quot; partName=&quot;Listado.jrxml&quot; title=&quot;Listado.jrxml&quot; tooltip=&quot;ListadoAsignaturas/Listado.jrxml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ListadoAsignaturas/Listado.jrxml&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>com.jaspersoft.studio.editor.JrxmlEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_Q9ChUJklEe68VqgG-wCPTw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="grafico.jrxml" iconURI="platform:/plugin/com.jaspersoft.studio/icons/jrxml_icon.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;grafico.jrxml&quot; partName=&quot;grafico.jrxml&quot; title=&quot;grafico.jrxml&quot; tooltip=&quot;ListadoAsignaturas/grafico.jrxml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ListadoAsignaturas/grafico.jrxml&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>com.jaspersoft.studio.editor.JrxmlEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_gZr1QJnEEe6QG46f1N9yzw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Informe4.jrxml" iconURI="platform:/plugin/com.jaspersoft.studio/icons/jrxml_icon.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Informe4.jrxml&quot; partName=&quot;Informe4.jrxml&quot; title=&quot;Informe4.jrxml&quot; tooltip=&quot;Informe4/Informe4.jrxml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Informe4/Informe4.jrxml&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>com.jaspersoft.studio.editor.JrxmlEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_veWfkJnKEe6QG46f1N9yzw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Informe5.jrxml" iconURI="platform:/plugin/com.jaspersoft.studio/icons/jrxml_icon.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.jaspersoft.studio.editor.JrxmlEditor&quot; name=&quot;Informe5.jrxml&quot; partName=&quot;Informe5.jrxml&quot; title=&quot;Informe5.jrxml&quot; tooltip=&quot;Informe5/Informe5.jrxml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Informe5/Informe5.jrxml&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>com.jaspersoft.studio.editor.JrxmlEditor</tags>
-        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_1sak1JhyEe6-StRWbGh1BA" elementId="com.jaspersoft.studio.Repository" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Repository Explorer" iconURI="platform:/plugin/com.jaspersoft.studio/icons/jr_icon.png" tooltip="" closeable="true">
@@ -241,6 +198,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Jaspersoft Studio</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_1salSphyEe6-StRWbGh1BA" elementId="com.jaspersoft.studio.editor.preview.reportstate">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -254,7 +213,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1salT5hyEe6-StRWbGh1BA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_XZhOcLYiEe6ByIDpwxsXYA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_1sas_5hyEe6-StRWbGh1BA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_MRISxrboEe6tJYLbd8kCeg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_1sas_5hyEe6-StRWbGh1BA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1salXZhyEe6-StRWbGh1BA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -272,7 +231,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1salfZhyEe6-StRWbGh1BA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_XZ0wcbYiEe6ByIDpwxsXYA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_1sasfZhyEe6-StRWbGh1BA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_MRSDxbboEe6tJYLbd8kCeg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_1sasfZhyEe6-StRWbGh1BA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1saliJhyEe6-StRWbGh1BA" elementId="com.jaspersoft.studio.graphic.text" visible="false">
         <tags>Draggable</tags>
@@ -2048,7 +2007,7 @@
   <addons xmi:id="_1sauYZhyEe6-StRWbGh1BA" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_1sauYphyEe6-StRWbGh1BA" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_1sauY5hyEe6-StRWbGh1BA" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_LAHW0bboEe6tJYLbd8kCeg" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <categories xmi:id="_1sauZZhyEe6-StRWbGh1BA" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
   <categories xmi:id="_1sauZphyEe6-StRWbGh1BA" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_1sauZ5hyEe6-StRWbGh1BA" elementId="org.eclipse.ui.category.edit" name="Edit"/>
